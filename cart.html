@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="profile.css"
+    />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Funiture_World</a>
+          </div>
+          <ul class="nav navbar-nav custom-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">DownloadApp</a></li>
+            <li><a href="#">Become a Supplier</a></li>
+            <li><a href="#">Newsroom</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right custom-nav">
+            <li>
+                <input type="search" id="form1" class="form-control" placeholder="Search"/>
+          </li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+        </nav>
+          <div class = "container_cart" style = "margin-top:100px;padding:50px;display:flex;justify-content:space-between">
+            <div class="card" style="border :1px solid black; width:70%;height:400px">
+                <div class = "order_main" style = "display: flex; justify-content: space-around;">
+                  <div style = "flex:2;">
+                      <img src = "https://www.ulcdn.net/images/products/809344/product/Mika_Chair_Red_LP.png?1683923731" width = "300px" height = "300px"></img>
+                  </div>
+                  <div style = "flex:3;">
+                      <p><b>Mika Leatherette Study Chair In Scarlet Red Colour</b></p>
+                      <p>color: Black</p>
+                      <p style = margin-top:70px;><b>Delivery by Sat Nov 25</b></p>
+                      <div style="display: flex;justify-content: space-around;margin-top:70px;">
+                        <div>
+                            <label for="quantity">Quantity:</label>
+                            <input type = "number" id="quantity" placeholder="1" min = "1" max = "10"/></div>
+                        <div><a href="#" style = "color:black"><b>Save For Later</b></a></div>
+                        <div><a href="#" style = "color:black"><b>Remove</b></a></div>
+                      </div>
+                  </div>
+                  <div style = "flex:1;">
+                      <p><b>Rs.12,278</b></p>
+                  </div>
+
+                </div><hr>
+                <div style = "text-align: end;margin-right: 50px;" >
+                    <button
+                  type="button"
+                  class="btn btn-lg btn-warning button_style"
+                >Place Order</button>
+                </div>
+              </div>
+            <div class="card" style="width:25%;">
+                <div class="card-header">
+                  <h4><b>Price Details</b></h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div style = "display: flex; justify-content: space-between;">
+                        <span>Price(1 item)</span><span><b>Rs. 12,278</b></span>
+                        </div></li>
+                        <li class="list-group-item">
+                            <div style = "display: flex; justify-content: space-between;">
+                            <span>Discount</span><span><b>Rs.0.00</b></span>
+                            </div></li>
+                            <li class="list-group-item">
+                                <div style = "display: flex; justify-content: space-between;">
+                                <span>GST</span><span><b>0%</b></span>
+                                </div></li>
+                                <li class="list-group-item">
+                                    <div style = "display: flex; justify-content: space-between;">
+                                    <span>Delivery Charges</span><span><b>Rs.100</b></span>
+                                    </div></li>
+                            <li class="list-group-item" style = "background-color:lavenderblush">
+                                <div style = "display: flex; justify-content: space-between;">
+                                <span>Total Amount</span><span><b>Rs.12,378</b></span>
+                                </div></li>
+                </ul>
+              </div>
+          </div>
+</body>
+</html>

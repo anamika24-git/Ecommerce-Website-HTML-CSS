@@ -1,0 +1,38 @@
+
+    .style_img {
+      width: 550px;
+      height: 500px;
+      object-fit: fill;
+    }
+    .button_style {
+      width: 40%;
+    }
+    .checked {
+      color: blue;
+      font-size: 20px;
+    }
+    .unchecked {
+      font-size: 20px;
+    }
+      .container-fluid {
+          background-color: white;
+      }
+      .navbar-default .navbar-brand {
+          color: black;
+       font-weight: bold;
+      }
+      .navbar-default .navbar-header {
+          margin-left:50px;
+          
+      }
+      .navbar-default .custom-nav >li >a {
+          color: black;
+       font-weight: bold;
+      }
+      .menu {
+          display:flex;
+          justify-content: space-around;
+          color:brown;
+          font-weight: bold;
+          margin-top:0px;
+      }
